@@ -400,7 +400,6 @@ h6 {
 
 #hero {
   width: 100%;
-  height: 80vh;
   background: #0d1b5a;
 }
 
@@ -414,11 +413,12 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
+  width: 80%;
 }
 
 #hero h2 {
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-size: 24px;
 }
 
@@ -428,17 +428,40 @@ h6 {
     font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
-    padding: 10px 28px 11px 28px;
+    padding: 6px 58px 6px 58px;
     /* border-radius: 50px; */
     transition: 0.5s;
-    margin: 10px 0 0 0;
+    margin: 0;
     color: #fff;
     background: #0d1b5a;
     /* border: outset; */
-    border-color: #ff1fba;
-    border-style: solid;
-    border-style: solid;
-    border-width: 2px;
+    border:2px solid #ff1fba;    
+}
+#vanityMetrics .btn-get-started {
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 6px 58px 6px 58px;
+    transition: 0.5s;
+    margin: 0;
+    color: #0d1b5a;
+    border:2px solid #ff1fba;
+    margin-top: 20px;
+}
+.relative{position: relative;}
+.leftBlueArrow{
+  position: absolute;
+  bottom: 40px;
+  left:-140px;
+}
+.left-conti-inner{padding-top: 195px;padding-left: 35px;}
+
+
+#vanityMetrics .btn-get-started:hover {
+  background: #ff1fba;
+  color: #ffffff;
 }
 
 
@@ -1866,3 +1889,19 @@ section {
     padding-top: 4px;
   }
 }
+
+/* Additions CL  */
+
+#vanityMetrics {background: url('../img/section1-bg.png') no-repeat center -5px;min-height: 632px;background-size: cover}
+#vanityMetrics h2{font-size:36px;font-weight: bold;}
+#vanityMetrics .span1{color:#0D1B5A}
+#vanityMetrics .span2{color:#FF1FBA}
+#vanityMetrics .desc{font-size: 24px;}
+#vanityMetrics .left-conti{display: flex;}
+
+#services{background: url('../img/section2-bg.jpg') no-repeat center -5px;min-height: 620px;background-size: cover;}
+
+
+
+
+
