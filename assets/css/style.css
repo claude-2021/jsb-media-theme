@@ -422,34 +422,48 @@ h6 {
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+.btn-get-started {
  font-family: "Jost", sans-serif;
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 1px;
     display: inline-block;
     padding: 6px 58px 6px 58px;
-    /* border-radius: 50px; */
     transition: 0.5s;
     margin: 0;
     color: #fff;
     background: #0d1b5a;
-    /* border: outset; */
     border:2px solid #ff1fba;    
-}
-#vanityMetrics .btn-get-started {
-    font-family: "Jost", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 6px 58px 6px 58px;
-    transition: 0.5s;
-    margin: 0;
+  }
+  #vanityMetrics .btn-get-started {
+    background: #ffffff;
     color: #0d1b5a;
     border:2px solid #ff1fba;
     margin-top: 20px;
+  }
+  #services .btn-get-started {
+    background: #ff1fba;
+    color: #ffffff;
+    border:2px solid #ff1fba;
+    margin-top: 20px;
+    padding: 6px 38px 6px 38px;
+  }
+  #why-us .btn-get-started {
+    background: #ff1fba;
+    color: #ffffff;
+    border:2px solid #ff1fba;
+    margin-top: 20px;
+    padding: 6px 38px 6px 38px;
+  }
+  #services .container {
+    padding-top: 150px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
+
 .relative{position: relative;}
 .leftBlueArrow{
   position: absolute;
@@ -462,6 +476,11 @@ h6 {
 #vanityMetrics .btn-get-started:hover {
   background: #ff1fba;
   color: #ffffff;
+}
+#why-us .btn-get-started:hover,
+#services .btn-get-started:hover {
+  background: #fff;
+  color: #ff1fba;
 }
 
 
@@ -1894,12 +1913,15 @@ section {
 
 #vanityMetrics {background: url('../img/section1-bg.png') no-repeat center -5px;min-height: 632px;background-size: cover}
 #vanityMetrics h2{font-size:36px;font-weight: bold;}
-#vanityMetrics .span1{color:#0D1B5A}
-#vanityMetrics .span2{color:#FF1FBA}
-#vanityMetrics .desc{font-size: 24px;}
+.span1{color:#0D1B5A}
+.span2{color:#FF1FBA}
+.desc{font-size: 24px;}
 #vanityMetrics .left-conti{display: flex;}
 
 #services{background: url('../img/section2-bg.jpg') no-repeat center -5px;min-height: 620px;background-size: cover;}
+#why-us{background: url('../img/section3-bg.jpg') no-repeat center -5px;min-height: 620px;background-size: cover;color:#ffffff;}
+#why-us .container{padding-top: 150px;}
+#why-us h2{font-size: 52px;}
 
 
 
