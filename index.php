@@ -4,29 +4,9 @@ Template Name: Home
  */
 get_header()?>
 <!-- ======= Header ======= -->
-<header id="header" class="fixed-top ">
-    <div class="container d-flex align-items-center">
 
-        <h1 class="logo me-auto"><a href="<?php echo esc_url(home_url('/')); ?>">
-                <img src="<?php echo get_template_directory_uri() ?>/assets/img/logo.png" class="img-fluid animated"
-                    alt=""></a></h1>
-        <nav id="navbar" class="navbar">
-            <ul>
-                <?php //wp_nav_menu(array('theme_location' => 'menu-1','menu_id'=> 'primary-menu',));?>
-                <li><a class="nav-link scrollto active" href="#hero">About</a></li>
-                <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                <li><a class="nav-link scrollto" href="<?php echo esc_url(home_url('/portfolio')); ?>">Portfolio</a>
-                </li>
-                <li><a class="nav-link scrollto" href="#services">Case Studies</a></li>
-                <li><a class="nav-link scrollto" href="#portfolio">Contact Us</a></li>
-                </li>
-                <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
-            </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
 
-    </div>
-</header><!-- End Header -->
+
 <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
 
@@ -79,7 +59,7 @@ get_header()?>
 
         </div>
     </section>
-    
+
     <section id="services" class="services">
         <div class="container flex-column" data-aos="fade-up">
             <h2 class="span1">Everything you need,<br />to <span class="span2">achieve</span> what you want</h2>
@@ -94,37 +74,57 @@ get_header()?>
 
         </div>
     </section>
-    
+
     <section id="why-us" class="why-us section-bg">
         <div class="container" data-aos="fade-up">
 
             <div class="row">
-              <div>
-              <h2>Proof is in the<br /><span class="span2">performance</span></h2>
-<div class="desc">
-Every business has a thriving brand<br />
-inside of it. See how we’ve helped our<br />
- clients unlock theirs.
-</div>
-              </div>
+                <div>
+                    <h2>Proof is in the<br /><span class="span2">performance</span></h2>
+                    <div class="desc">
+                        Every business has a thriving brand<br />
+                        inside of it. See how we’ve helped our<br />
+                        clients unlock theirs.
+                    </div>
+                </div>
             </div>
             <div class="d-flex justify-content-center justify-content-lg-start">
                 <a href="#services" class="btn-get-started scrollto">Our impact</a>
             </div>
         </div>
     </section>
-    
+
     <section id="skills" class="skills">
         <div class="container text-center" data-aos="fade-down">
 
-      <div class="row">
-        <h2 class="span1">Meet our <span class="span2">friends</span></h2>
-      <div class="desc mt-2">
-        We help brands break out of their insular thinking<br />
-         patterns and look to unrelated categories for inspiration.
+            <div class="row">
+                <h2 class="span1">Meet our <span class="span2">friends</span></h2>
+                <div class="desc mt-2">
+                    We help brands break out of their insular thinking<br />
+                    patterns and look to unrelated categories for inspiration.
+                </div>
+            </div>
         </div>
-      </div>
+    </section>
 
+    <section id="clients">
+        <div class="container">
+            <div class="row">
+                <div class="cl-brdrs"><img src="<?php echo get_template_directory_uri() ?>/assets/img/sponsors.png"
+                        class="img-fluid" alt=""></div>
+            </div>
+        </div>
+    </section>
+    <section id="brand">
+        <div class="container" data-aos="fade-up">
+            <div class="row">
+                <h2 class="span1">Take <span class="span2">the biggest step</span> for your brand</h2>
+            <div class="desc">Discover what’s possible with a fresh perspective and a<br />
+                 wealth of data used wisely.</div>                 
+                 <div class="d-flex justify-content-center">
+                <a href="#Starthere" class="btn-get-started scrollto">Start here</a>
+            </div>
+            </div>
         </div>
     </section>
 

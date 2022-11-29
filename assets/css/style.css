@@ -4,6 +4,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color:#F2F2F2;
 }
 
 a {
@@ -167,12 +168,12 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 15px;
   font-weight: 500;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
 }
+.navbar a{font-size:15px;font-weight:bold;text-transform:uppercase}
 
 .navbar a i,
 .navbar a:focus i {
@@ -455,14 +456,22 @@ h6 {
     margin-top: 20px;
     padding: 6px 38px 6px 38px;
   }
+  #brand .btn-get-started {
+    background: #ff1fba;
+    color: #ffffff;
+    border:2px solid #ff1fba;
+    margin-top: 20px;
+    padding: 6px 38px 6px 38px;
+  }
+  #brand .container,
   #services .container {
     padding-top: 150px;
     text-align: center;
     display: flex;
-    flex-direction: column;
     align-content: center;
     align-items: center;
-}
+  }
+  #brand .container{padding-top: 0;}
 
 .relative{position: relative;}
 .leftBlueArrow{
@@ -477,6 +486,7 @@ h6 {
   background: #ff1fba;
   color: #ffffff;
 }
+#brand .btn-get-started:hover,
 #why-us .btn-get-started:hover,
 #services .btn-get-started:hover {
   background: #fff;
@@ -1923,7 +1933,37 @@ section {
 #why-us .container{padding-top: 150px;}
 #why-us h2{font-size: 52px;}
 
+#clients{padding-top:0;}
+.cl-brdrs{padding:50px 0;border:6px solid #FF1FBA;border-width:6px 0;}
 
 
+#footer{background-color: #B1B3BA;color:#ffffff;}
+#footer .inner{padding: 40px 0;}
+#footer a{color:#ffffff;}
+#footer a.under{text-decoration: underline;}
+#footer li{list-style: none;}
 
+.rowftr{margin-bottom: 25px;}
+.bld{font-weight: bold;font-size: 20px;}
+.vlu{font-size: 18px;}
+.mnu-php{
+    display: flex;
+    justify-content: flex-end;
+}
 
+.menu-jsb-main-menu-container{padding-right: 0;}
+.menu-jsb-main-menu-container ul{display: flex;font-size: 18px;}
+.menu-jsb-main-menu-container li{text-decoration: underline;margin: 0 16px;}
+.menu-jsb-main-menu-container li:last-child{margin-right: 2px;}
+.logo-ftr{border-bottom: 1px solid #ffffff;padding-bottom: 10px;padding-right: 0;}
+.socials .soc{background: url(../img/social.png) no-repeat 0 0;width: 26px;height: 26px;margin-left:25px;display: block;}
+.socials .soc.soc-tw{background-position: -56px 0;}
+.socials .soc.soc-yt{background-position: -112px 0;}
+.socials {
+    display: flex;
+    justify-content: flex-end;
+}
+.socials ul{display: flex;}
+.pp-and-social-1{padding-top: 20px;}
+.pp-and-social-2{padding-top: 30px;}
+.pp-and-social-2 .terms{padding-left: 80px;}
