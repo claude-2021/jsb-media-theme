@@ -46,13 +46,7 @@
                 <img src="<?php echo get_template_directory_uri() ?>/assets/img/logo-jsb-media.png" class="img-fluid animated"
                     alt=""></a></h1>
         <nav id="navbar" class="navbar">
-            <ul>
-                <?php //wp_nav_menu(array('theme_location' => 'menu-1','menu_id'=> 'primary-menu',));?>
-                <li><a class="nav-link scrollto active" href="#hero">About</a></li>
-                <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                <li><a class="nav-link scrollto" href="#case-studies">Case Studies</a></li>
-                <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
-            </ul>
+                <?php wp_nav_menu(array('theme_location' => 'menu-1','menu_id'=> 'primary-menu',));?>
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
 
