@@ -38,7 +38,7 @@ get_header()?>
         <div class="container" data-aos="fade-left">
 
             <div class="row">
-                <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1">
+                <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1">
                     <div class="left-conti">
                         <div class="left-conti-inner">
 
@@ -99,7 +99,7 @@ get_header()?>
 
             <div class="row">
                 <h2 class="span1">Meet our <span class="span2">friends</span></h2>
-                <div class="desc mt-2">
+                <div class="desc">
                     We help brands break out of their insular thinking<br />
                     patterns and look to unrelated categories for inspiration.
                 </div>

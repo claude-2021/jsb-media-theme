@@ -27,6 +27,7 @@
 
   <!-- Template Main CSS File -->
   <link href="<?php echo get_template_directory_uri() ?>/assets/css/style.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri() ?>/assets/css/style-mobile.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Arsha - v4.9.1
@@ -38,7 +39,7 @@
   <?php wp_head();?>
 </head>
 
-<body>
+<body <?php body_class();?>>
 <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
