@@ -59,9 +59,11 @@ public function render_shortcode( $atts, $content, $tag ) {
     $title_txt         = esc_attr($atts['title_txt']);
     $desc         = esc_attr($atts['description']);
     $output .= '
+    <div class="card-cs-oter">
             <div class="card-cs">
-                <div class="title">'.$title_number.'</div>
-                <div class="desc">'.$title_txt.'</div>
+                <div class="title_nmbr">'.$title_number.'</div>
+                <div class="desc">'.str_replace( "<br />\n", "\n", $title_txt ).'</div>
+            </div>
             </div>
 ';
     return $output;                  
