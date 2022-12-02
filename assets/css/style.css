@@ -2000,18 +2000,18 @@ section {
   justify-content: flex-end;
 }
 
-footer .menu-jsb-media-main-menu-container {
+footer  .menu {
   padding-right: 0;
 }
-footer .menu-jsb-media-main-menu-container ul {
+footer .menu {
   display: flex;
   font-size: 18px;
 }
-footer .menu-jsb-media-main-menu-container li {
+footer .menu li {
   text-decoration: underline;
   margin: 0 16px;
 }
-footer .menu-jsb-media-main-menu-container li:last-child {
+footer .menu li:last-child {
   margin-right: 2px;
 }
 .logo-ftr {
