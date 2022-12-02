@@ -2156,6 +2156,7 @@ h2.our-values {
 }
 #CaseStudyHeader .flex {
   justify-content: space-between;
+  padding:0 45px;
 }
 #CaseStudyHeader .desc {
   width: 80%;
