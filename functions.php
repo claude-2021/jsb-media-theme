@@ -58,3 +58,12 @@ if( !$menu_exists){
         set_theme_mod( 'nav_menu_locations', $locations );
     }
 }
+
+
+require_once get_template_directory() . '/jsbcpt/jsbcpt.php';
+require_once get_template_directory() . '/wpbakery-elements/header.php';
+require_once get_template_directory() . '/wpbakery-elements/activities.php';
+require_once get_template_directory() . '/wpbakery-elements/results.php';
+
+$dir = get_stylesheet_directory() . '/vc_templates';   
+vc_set_shortcodes_templates_dir( $dir );
