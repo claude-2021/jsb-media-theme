@@ -19,47 +19,6 @@ function p4_custom_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'p4_custom_scripts' );
 
-$menuname = 'JSB-media Main Menu';
-$bpmenulocation = 'lblgbpmenu';
-// Does the menu exist already?
-$menu_exists = wp_get_nav_menu_object( $menuname );
-
-// If it doesn't exist, let's create it.
-if( !$menu_exists){
-    $menu_id = wp_create_nav_menu($menuname);
-
-    // Set up default BuddyPress links and add them to the menu.
-    wp_update_nav_menu_item($menu_id, 0, array(
-        'menu-item-title' =>  __('About'),
-        'menu-item-classes' => 'about',
-        'menu-item-url' => home_url( '/about' ), 
-        'menu-item-status' => 'publish'));
-
-    wp_update_nav_menu_item($menu_id, 0, array(
-        'menu-item-title' =>  __('Services'),
-        'menu-item-classes' => 'services',
-        'menu-item-url' => home_url( '/services/' ), 
-        'menu-item-status' => 'publish'));
-
-    wp_update_nav_menu_item($menu_id, 0, array(
-        'menu-item-title' =>  __('Case Studies'),
-        'menu-item-classes' => 'case-studies',
-        'menu-item-url' => home_url( '/case-studies/' ), 
-        'menu-item-status' => 'publish'));
-
-    wp_update_nav_menu_item($menu_id, 0, array(
-        'menu-item-title' =>  __('Contact Us'),
-        'menu-item-classes' => 'contactus',
-        'menu-item-url' => home_url( '/contact-us/' ), 
-        'menu-item-status' => 'publish'));
-
-    if( !has_nav_menu( $bpmenulocation ) ){
-        $locations = get_theme_mod('nav_menu_locations');
-        $locations[$bpmenulocation] = $menu_id;
-        set_theme_mod( 'nav_menu_locations', $locations );
-    }
-}
-
 
 require_once get_template_directory() . '/jsbcpt/jsbcpt.php';
 require_once get_template_directory() . '/wpbakery-elements/header.php';
