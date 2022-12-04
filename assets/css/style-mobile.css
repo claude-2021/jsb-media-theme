@@ -3,26 +3,24 @@
     padding-top: 20px;
     padding-bottom: 20px;
   }
-
   #footer .copyright,
   #footer .credits {
     text-align: center;
     float: none;
   }
-
   #footer .credits {
     padding-top: 4px;
   }
   #vanityMetrics {
     background: url("../img/section1-bg.png") no-repeat right -5px;
-    min-height: 402px;
+    min-height: initial;
   }
   .left-conti-inner {
     padding-top: 0;
     padding-left: 10px;
   }
   .desc {
-    font-size: 20px;
+    font-size: 18px;
   }
   #brand .container,
   #services {
@@ -61,7 +59,6 @@
   #footer .inner {
     padding: 30px 20px;
   }
-
   .pp-and-social-2 {
     flex-direction: column;
   }
@@ -85,4 +82,162 @@
   footer .menu li {
     margin: 0;
   }
+  #StatusQuo {
+    min-height: initial;
+    background-size: contain;
+    background-color: var(--color-span1);
+    padding: 100px 0;
+    background-position: left bottom;
+  }
+  #OurValues {
+    padding: 0;
+    position: relative;
+  }
+  #OurValues .inner {
+    /* 
+  background-size: contain;
+  background-position: left bottom;
+  padding-bottom:50px */
+    background: none;
+    min-height: initial;
+  }
+  #OurValues .bg {
+    display: block;
+  }
+  #OurValues .bg::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    display: block;
+    left: 0;
+    min-height: 240px;
+    background: url("../img/abt-section-2.png") no-repeat right bottom / contain;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+  }
+  #OurValues .desc {
+    font-weight: 700;
+  }
+  h2.morethan,
+  h2.our-values {
+    font-size: 34px;
+  }
+  #KeepIt {
+    padding: 0;
+  }
+  #KeepIt .coretxt {
+    padding-left: 20px;
+  }
+  #KeepIt .inner {
+    min-height: initial;
+    background: none;
+  }
+  #BuildOn .inner {
+    min-height: initial;
+    padding: 40px 0 40px 30px;
+  }
+  #BuildOn .coretxt {
+    padding-right: 0;
+  }
+  #solutions h2 {
+    font-size: 24px;
+  }
+  #solutions .inner {
+    background-position: right bottom;
+  }
+  #planBrand {
+    padding: 120px 0 50px 0;
+  }
+  .desc br {
+    display: none;
+  }
+  #morethan {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #morethan ul:nth-child(3)::after {
+    display: none;
+  }
+  #relationShip .desc {
+    font-size: 26px;
+    padding-top: 0;
+  }
+  #relationShip {
+    background-position: center center;
+  }
+  #relationShip .flex {
+    height: initial;
+  }
+  .leadGeneration {
+    padding: 20px 0;
+  }
+  .leadGeneration h2 {
+    font-size: 30px;
+  }
+  .leadGeneration .dsc-txt {
+    font-size: 18px;
+    padding-bottom: 25px;
+  }
+  .leadGeneration h2 br,
+  .leadGeneration .dsc-txt br {
+    display: none;
+  }
+  .leadGeneration .img {
+    margin: 0 !important;
+  }
+  .leadGeneration .container {
+    padding: 0 20px;
+  }
+  .leadGeneration .flex:nth-child(2) {
+    margin-top: 20px;
+    justify-content: flex-end;
+    flex-direction: column-reverse;
+    display: flex;
+  }
+  .leadGeneration .dsc1,
+  .leadGeneration .dsc2 {
+    padding-right: 18px;
+    min-height: initial;
+  }
+  #CaseStudyHeader .image {
+    margin-top: 20px;
+  }
+  #CaseStudyHeader .image img {
+    max-width: 100%;
+  }
+  #CaseStudyHeader {
+    padding-top: 60px;
+  }
+  #CaseStudyHeader .flex{padding: 0 25px;}
+  #CaseStudyHeader h2 {
+    font-size: 32px;
+    max-width: 100%;
+  }
+  #CaseStudyHeader .desc {
+    width: auto;
+  }
+  #CSactivities .card-cs-wrapper {
+    display: block;
+    padding-top: 20px;
+  }
+  #CSactivities .card-cs {
+    align-items: center;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 45px;
+  }
+  #CSactivities .desc {
+    text-align: center;
+    font-size: 20px;
+  }
+  #CSactivities h2.vc_custom_heading {
+    padding-bottom: 20px;
+  }
+  #CSactivities{padding: 30px 0;}
+  #CSactivities h2{margin-bottom: 0;}
+ #CSresults .card-cs-wrapper{padding-top: 20px;justify-content:center}
+ #CSresults .card-cs-oter{margin-right: 0;margin-bottom: 25px;}
+ #contactUs{background: none;padding: 50px 20px;min-height: initial;background-color: var(--color-span1);}
+ .theform{width: 95%;}
 }

@@ -68,7 +68,7 @@ public function render_shortcode( $atts, $content, $tag ) {
         <div class="container" data-aos="fade-up">
             <div class="flex relative">
                 <div class="">
-                    <h2 class="span3">'.$content.'</h2>
+                    <h2 class="span3">'.strip_tags($content,'<span>').'</h2>
                     <div class="desc">'.$desc.'</div>
                 </div>
                 <div class="image">

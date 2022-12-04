@@ -3,11 +3,6 @@
 Template Name: Home
  */
 get_header()?>
-<!-- ======= Header ======= -->
-
-
-
-<!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
 
     <div class="container">
@@ -29,11 +24,10 @@ get_header()?>
         </div>
     </div>
 
-</section><!-- End Hero -->
+</section>
 
 <main id="main">
 
-    <!-- ======= Clients Section ======= -->
     <section id="vanityMetrics">
         <div class="container" data-aos="fade-left">
 
@@ -128,6 +122,6 @@ get_header()?>
         </div>
     </section>
 
-</main><!-- End #main -->
+</main>
 
 <?php get_footer()?>

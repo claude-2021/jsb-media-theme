@@ -36,7 +36,19 @@
         <h1 class="logo me-auto"><a href="<?php echo esc_url(home_url('/')); ?>">
                 <img src="<?php echo get_template_directory_uri() ?>/assets/img/logo-jsb-media.png" class="img-fluid animated" alt=""></a></h1>
         <nav id="navbar" class="navbar">
-                <?php wp_nav_menu(array('theme_location' => 'menu-1','menu_id'=> 'primary-menu',));?>
+                <?php //wp_nav_menu(array('theme_location' => 'menu-1','menu_id'=> 'primary-menu',));?>
+
+<ul>
+    <li><a class="nav-link" href="<?php echo site_url('/about')?>">About</a></li>
+    <li><a class="nav-link" href="<?php echo site_url('/services')?>">Services</a></li>
+    <li class="dropdown"><a href="#"><span>Case Studies</span> 
+        <i class="bi bi-chevron-down"></i></a>
+        <?php wp_nav_menu(array('theme_location' => 'menu-case-studies','menu_id'=> 'case-studies','container'=>false));?>
+    </li>
+    <li><a class="nav-link" href="<?php echo site_url('/contact-us')?>">Contact Us</a></li>
+
+</ul>
+
             <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
     </div>

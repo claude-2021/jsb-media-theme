@@ -50,13 +50,13 @@ public function create_shortcode() {
     ));             
 }
 public function render_shortcode( $atts, $content, $tag ) {
-    $atts = (shortcode_atts(array(
+    $atts = shortcode_atts(array(
         'title'   => '',
         'description'      => '',
         'extra_class'       => '',
         'element_id'        => '',
         'jsb_image'        => ''
-    ), $atts));
+    ), $atts);
     $output = '';
     //Content 
     $content            = wpb_js_remove_wpautop($content, true);
@@ -74,7 +74,7 @@ public function render_shortcode( $atts, $content, $tag ) {
     $output .= '
             <div class="card-cs">
                 <div class="image"><img src="'.$image[0].'" /></div>
-                <h2 class="title">'.$content.'</h2>
+                <h2 class="title">'.strip_tags($content,'<span>').'</h2>
                 <div class="desc">'.$desc.'</div>
             </div>
 ';

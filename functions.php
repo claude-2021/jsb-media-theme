@@ -8,7 +8,8 @@ function p4_custom_setup() {
 	add_theme_support( 'post-thumbnails' );
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Primary', 'jsb-media' ),
+//'menu-1' => esc_html__( 'Primary', 'jsb-media' ),
+			'menu-case-studies' => esc_html__( 'Case Studies', 'jsb-media' ),
 		)
 	);
 }

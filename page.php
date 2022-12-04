@@ -18,6 +18,7 @@ get_header()?>
     </section>
     <h2 class="span1 text-center our-values">Our <span class="span2">values</span></h2>
     <section id="OurValues">
+        <div class="bg"></div>
         <div class="inner">
             <div class="container" data-aos="fade-up">
                 <div class="coretxt mt-8">
