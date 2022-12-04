@@ -1891,6 +1891,7 @@ h2.our-values {
   flex-direction: column;
   width: 23%;
   margin-right: 90px;
+  margin-bottom: 60px;
 }
 .card-cs-wrapper {
   display: flex;
@@ -1898,7 +1899,7 @@ h2.our-values {
   flex-wrap: wrap;
 }
 #CSresults {
-  background: url("../img/bg-results.jpg") no-repeat center center;
+  background: url("../img/bg-results.png") no-repeat center center;
   height: 958px;
   color: #ffffff;
 }
@@ -1934,7 +1935,7 @@ h2.our-values {
 .contact-form .container{background-color: #ffffff;border-radius: 8px;margin-top: 45px;}
 .contact-form .container .inner,
 #ReadyToCook.srv {
-  background: url("../img/cs-ftr-bg-1.png") no-repeat center center;
+  background: url("../img/cs-ftr-bg-1.png") no-repeat center center #ffffff;
   padding: 40px 0 100px 0;
   margin: 0 auto;
 }

@@ -241,4 +241,5 @@
  #contactUs{background: none;padding: 50px 20px;min-height: initial;background-color: var(--color-span1);}
  .theform{width: 95%;}
 footer .dropdown ul{margin-left: 25px;}
+#morethan .flex{display: block;}
 }
