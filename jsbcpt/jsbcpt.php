@@ -14,6 +14,7 @@ function case_study_post_type() {
             'rewrite'   => array( 'slug' => 'casestudy' ),
             'menu_position' => 5,
             'menu_icon' => 'dashicons-editor-ul',
+            'show_in_nav_menus'=>true
         // 'taxonomies' => array('cuisines', 'post_tag') // this is IMPORTANT
         )
     );
