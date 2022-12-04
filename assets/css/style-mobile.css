@@ -209,7 +209,10 @@
   #CaseStudyHeader {
     padding-top: 60px;
   }
-  #CaseStudyHeader .flex{padding: 0 25px;display: block}
+  #CaseStudyHeader .flex {
+    padding: 0 25px;
+    display: block;
+  }
   #CaseStudyHeader h2 {
     font-size: 32px;
     max-width: 100%;
@@ -234,12 +237,37 @@
   #CSactivities h2.vc_custom_heading {
     padding-bottom: 20px;
   }
-  #CSactivities{padding: 30px 0;}
-  #CSactivities h2{margin-bottom: 0;}
- #CSresults .card-cs-wrapper{padding-top: 20px;justify-content:center}
- #CSresults .card-cs-oter{margin-right: 0;margin-bottom: 25px;}
- #contactUs{background: none;padding: 50px 20px;min-height: initial;background-color: var(--color-span1);}
- .theform{width: 95%;}
-footer .dropdown ul{margin-left: 25px;}
-#morethan .flex{display: block;}
+  #CSactivities {
+    padding: 30px 0;
+  }
+  #CSactivities h2 {
+    margin-bottom: 0;
+  }
+  #CSresults .card-cs-wrapper {
+    padding-top: 20px;
+    justify-content: center;
+  }
+  #CSresults .card-cs-oter {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+  #contactUs {
+    background: none;
+    padding: 50px 20px;
+    min-height: initial;
+    background-color: var(--color-span1);
+  }
+  .theform {
+    width: 95%;
+  }
+  footer .dropdown ul {
+    margin-left: 25px;
+  }
+  #morethan .flex {
+    display: block;
+  }
+  #BuildOn .inner {
+    background: none;
+    background-color: var(--color-span1);
+  }
 }
