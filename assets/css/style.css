@@ -50,14 +50,14 @@ a:hover {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #37517e;
+  background: var(--color-span1);
 }
 #preloader:before {
   content: "";
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #37517e;
+  border: 6px solid var(--color-span3);
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -92,7 +92,7 @@ a:hover {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: var(--color-span1);
+  background: var(--color-span3);
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -104,7 +104,7 @@ a:hover {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #6bc1e9;
+  background: var(--color-span1);
   color: #fff;
 }
 .back-to-top.active {
@@ -1670,7 +1670,7 @@ section {
   background-size: cover;
 }
 #why-us {
-  background: url("../img/section3-bg.jpg") no-repeat center -5px;
+  background: url("../img/section3-bg.png") no-repeat center bottom;
   min-height: 620px;
   background-size: cover;
   color: #ffffff;
@@ -1819,7 +1819,7 @@ h2.our-values {
   color: #ffffff;
 }
 #BuildOn .coretxt {
-  padding-right: 85px;
+  padding-right: 0;
 }
 #KeepIt .inner {
   background: url("../img/abt-section-4.png") no-repeat center center;
@@ -1838,7 +1838,7 @@ h2.our-values {
   padding-bottom: 0;
 }
 #solutions .inner {
-  background: url("../img/abt-section-5.png") no-repeat left center;
+  background: url("../img/abt-section-5.png") no-repeat right center;
   min-height: 600px;
   display: flex;
   align-items: center;
@@ -1858,6 +1858,7 @@ h2.our-values {
 }
 #CaseStudyHeader h2 {
   font-size: 44px;
+  padding-left:50px ;
 }
 #CaseStudyHeader .image img {
   display: block;
@@ -1865,9 +1866,10 @@ h2.our-values {
 #CaseStudyHeader .flex {
   justify-content: space-between;
   padding: 0 45px;
+  align-items: center;
 }
 #CaseStudyHeader .desc {
-  width: 80%;
+  padding-left: 50px;
 }
 #CSactivities h2.vc_custom_heading {
   color: var(--color-span1);
@@ -1929,7 +1931,7 @@ h2.our-values {
   font-family: "Barlow-Bold";
 }
 #ReadyToCook {
-  background: url("../img/cs-ftr-bg.png") no-repeat center center #ffffff;
+  background: url("../img/cs-ftr-bg.png") no-repeat center center;
   margin: 50px 0 35px 0;
 }
 .contact-form .container{background-color: #ffffff;border-radius: 8px;margin-top: 45px;}
@@ -2065,3 +2067,5 @@ h2.morethan {
 
 footer .nav-link{font-size: 18px;}
 footer .dropdown{font-size: 18px;}
+footer #case-studies{display: none;}
+footer i{display: none;}
