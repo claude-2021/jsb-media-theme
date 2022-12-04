@@ -209,7 +209,7 @@
   #CaseStudyHeader {
     padding-top: 60px;
   }
-  #CaseStudyHeader .flex{padding: 0 25px;}
+  #CaseStudyHeader .flex{padding: 0 25px;display: block}
   #CaseStudyHeader h2 {
     font-size: 32px;
     max-width: 100%;
