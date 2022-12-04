@@ -22,7 +22,18 @@
             </div>
             <div class="col-lg-6 mnu-php">
                 <div class="row flex-row">
-                    <?php wp_nav_menu(array('theme_location' => 'lblgbpmenu', 'menu_id'=> 'primary-menu',));?>
+                <ul>
+    <li><a class="nav-link" href="<?php echo site_url('/about')?>">About</a></li>
+    <li><a class="nav-link" href="<?php echo site_url('/services')?>">Services</a></li>
+    <li class="dropdown"><a href="#"><span>Case Studies</span> 
+        <i class="bi bi-chevron-down"></i></a>
+        <?php wp_nav_menu(array('theme_location' => 'menu-case-studies','menu_id'=> 'case-studies','container'=>false));?>
+    </li>
+    <li><a class="nav-link" href="<?php echo site_url('/contact-us')?>">Contact Us</a></li>
+
+</ul>
+
+
                 </div>
             </div>
         </div>
