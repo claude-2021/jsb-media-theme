@@ -7,6 +7,7 @@ function case_study_post_type() {
                 'singular_name' => __( 'Case Study' )
             ),
             'public' => true,
+            'publicly_queryable' => true,
             'hierarchical'=>false,
             'show_in_rest' => true,
             'supports' => array('title', 'editor', 'thumbnail'),
