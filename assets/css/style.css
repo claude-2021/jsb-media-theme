@@ -1944,6 +1944,8 @@ h2.our-values {
   margin: 0 auto;
   width: 80%;
 }
+.small-car-big-boost .m-2:nth-child(4) .title_nmbr,
+.small-car-big-boost .m-3:nth-child(4) .title_nmbr,
 .small-car-big-boost .m-4:nth-child(4) .title_nmbr {font-size: 22px;line-height: 1.1;}
 .new-plans-for-game-day  .title_nmbr {font-size: 28px;line-height: 1.1;}
 
