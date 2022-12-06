@@ -3,7 +3,7 @@ get_header();
 WPBMap::addAllMappedShortcodes();
 $content = $post->post_content;
 ?>
-<main id="main">
+<main id="main" class="<?php echo $post->post_name?>">
         <?php echo apply_filters( 'the_content', $content ); ?>
         <section id="ReadyToCook" class="skills">
         <div class="container text-center" data-aos="fade-down">

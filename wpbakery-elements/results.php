@@ -18,10 +18,11 @@ public function create_shortcode() {
         'params' => array(   
             array(
                 'type'          => 'textarea',
-                'heading'       => __( 'Title Number', 'jsbmedia' ),
+                'heading'       => __( 'Number in circle', 'jsbmedia' ),
                 'param_name'    => 'title_number',
                 'value'             => __( '', 'jsbmedia' ),
                 'description'   => __( 'Enter title number EX: <b>250K</b>', 'jsbmedia' ),
+                'admin_label'         =>true
             ),
             array(
                 'type'          => 'textarea',
@@ -59,10 +60,12 @@ public function render_shortcode( $atts, $content, $tag ) {
     $title_txt         = esc_attr($atts['title_txt']);
     $desc         = esc_attr($atts['description']);
     $output .= '
+    <div class="m-4">
     <div class="card-cs-oter">
             <div class="card-cs">
                 <div class="title_nmbr">'.$title_number.'</div>
                 <div class="desc">'.str_replace( "<br />\n", "\n", $title_txt ).'</div>
+            </div>
             </div>
             </div>
 ';
