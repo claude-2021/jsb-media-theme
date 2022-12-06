@@ -1904,6 +1904,8 @@ h2.our-values {
   justify-content:flex-start;
 }
 .scoring-more-revenue .card-cs-wrapper{width: 80%;margin: 0 auto;}
+.scoring-more-revenue .card-cs-wrapper .m-2{flex: 1 0 21%;}
+.scoring-more-revenue .card-cs-wrapper .m-3{flex: 1 0 21%;}
 .scoring-more-revenue .card-cs-wrapper .m-4{flex: 1 0 21%;}
 #CSresults {
   background: url("../img/bg-results.png") no-repeat center top;

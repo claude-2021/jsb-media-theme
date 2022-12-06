@@ -60,7 +60,7 @@ public function render_shortcode( $atts, $content, $tag ) {
     $title_txt         = esc_attr($atts['title_txt']);
     $desc         = esc_attr($atts['description']);
     $output .= '
-    <div class="m-3">
+    <div class="m-2">
     <div class="card-cs-oter">
             <div class="card-cs">
                 <div class="title_nmbr">'.$title_number.'</div>
