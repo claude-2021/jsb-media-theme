@@ -1,0 +1,10 @@
+<label>
+    [text* your-name "Name"] </label>
+
+<label>
+    [email* your-email "Email"] </label>
+
+<label>
+    [textarea your-message "Message"] </label>
+
+[submit "Submit"]
