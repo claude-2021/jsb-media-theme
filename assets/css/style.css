@@ -1906,7 +1906,7 @@ h2.our-values {
 .scoring-more-revenue .card-cs-wrapper{width: 80%;margin: 0 auto;}
 .scoring-more-revenue .card-cs-wrapper .m-4{flex: 1 0 21%;}
 #CSresults {
-  background: url("../img/bg-results.png") no-repeat center center;
+  background: url("../img/bg-results.png") no-repeat center top;
   color: #ffffff;
 }
 #CSresults .card-cs-oter {
