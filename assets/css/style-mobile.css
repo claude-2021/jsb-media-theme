@@ -270,4 +270,7 @@
     background: none;
     background-color: var(--color-span1);
   }
+  #CSresults {
+    background-color: var(--color-span1);
+  }
 }
