@@ -1971,6 +1971,7 @@ h2.our-values {
 }
 #planBrand {
   background: url("../img/triangle.png") no-repeat center bottom;
+  padding: 130px 0;
 }
 #planBrand h1 {
   padding-left: 17px;
