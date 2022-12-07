@@ -1855,6 +1855,7 @@ h2.our-values {
 #CaseStudyHeader {
   background: url("../img/bg-cs-hdr.png") no-repeat center bottom;
   color: #ffffff;
+  padding: 60px 0;
 }
 #CaseStudyHeader h2 {
   font-size: 44px;
