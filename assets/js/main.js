@@ -4,7 +4,11 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
-(function() {
+(function($) {
+
+  $('.current-menu-item').parents('.case-studies-parent').addClass('current-papa');
+
+
   "use strict";
 
   /**
@@ -254,7 +258,8 @@
     });
   });
 
-  document.getElementById("myBtn").addEventListener("click", displayDate);
+  //document.getElementById("myBtn").addEventListener("click", displayDate);
 
+  
 
-})()
+})(jQuery)

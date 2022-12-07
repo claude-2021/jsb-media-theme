@@ -274,4 +274,6 @@
     background: none;
     background-color: var(--color-span1);
   }
+
+  footer .mnuphpfrt{display: block}
 }

@@ -22,7 +22,7 @@
             </div>
             <div class="col-lg-6 mnu-php">
                 <div class="row flex-row">
-                <ul>
+                <ul class="mnuphpfrt">
     <li><a class="nav-link" href="<?php echo site_url('/about')?>">About</a></li>
     <li><a class="nav-link" href="<?php echo site_url('/services')?>">Services</a></li>
     <li class="dropdown"><a href="#"><span>Case Studies</span> 
