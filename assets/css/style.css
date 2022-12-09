@@ -1949,8 +1949,9 @@ h2.our-values {
   width: 80%;
 }
 .childrow{margin: 25px;}
-.small-car-big-boost .childrow:nth-child(4) .title_nmbr{font-size: 22px;line-height: 1.1;}
-.new-plans-for-game-day  .title_nmbr {font-size: 28px;line-height: 1.1;}
+
+.title_nmbr.title_nmbr_22{font-size: 22px;line-height: 1.1;}
+.title_nmbr.title_nmbr_28{font-size: 28px;line-height: 1.1;}
 
 #ReadyToCook {
   background: url("../img/cs-ftr-bg.png") no-repeat center center;

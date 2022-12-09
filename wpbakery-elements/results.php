@@ -31,19 +31,31 @@ public function create_shortcode() {
                 'value'             => __( '', 'jsbmedia' ),
                 'description'   => __( 'Enter title text.', 'jsbmedia' ),
             ),
+            array(
+                'type'          => 'dropdown',
+                'heading'       => __( 'Size', 'jsbmedia' ),
+                'param_name'    => 'size',
+                'value'      => array(
+                    esc_html__( 'Big', 'jsbmedia' )  => '46',
+                    esc_html__( 'Normal', 'jsbmedia' ) => '28',
+                    esc_html__( 'Small', 'jsbmedia' ) => '22',
+                ),
+                'description'   => __( 'Enter title text.', 'jsbmedia' ),
+            ),
              
         ),
     ));             
 }
 public function render_shortcode( $atts, $content, $tag ) {
-    $atts = (shortcode_atts(array(
+    $atts = shortcode_atts(array(
         'title_number'   => '',
         'title_txt'   => '',
         'description'      => '',
         'extra_class'       => '',
         'element_id'        => '',
-        'jsb_image'        => ''
-    ), $atts));
+        'jsb_image'        => '',
+        'size'        => '',
+    ), $atts);
     $output = '';
     //Content 
     $content            = wpb_js_remove_wpautop($content, true);
@@ -59,11 +71,12 @@ public function render_shortcode( $atts, $content, $tag ) {
     $title_number         = esc_attr($atts['title_number']);
     $title_txt         = esc_attr($atts['title_txt']);
     $desc         = esc_attr($atts['description']);
+    $size         = $atts['size'];
     $output .= '
     <div class="childrow">
     <div class="card-cs-oter">
             <div class="card-cs">
-                <div class="title_nmbr">'.$title_number.'</div>
+                <div class="title_nmbr title_nmbr_'.$size.'">'.$title_number.'</div>
                 <div class="desc">'.str_replace( "<br />\n", "\n", $title_txt ).'</div>
             </div>
             </div>
