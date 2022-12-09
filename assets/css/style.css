@@ -1921,7 +1921,7 @@ h2.our-values {
   display: flex;
   padding-top: 50px;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 #CSresults .card-cs-wrapper {justify-content:center;}
 .scoring-more-revenue .card-cs-wrapper{width: 80%;margin: 0 auto;}
@@ -2117,16 +2117,16 @@ footer .mnuphpfrt a{text-decoration: underline;}
 
 .current-menu-item a{display: block;}
 #skills{padding-top: 120px;}
-
-/* .current-papa .csadf::after,
-.current-menu-item a::after{
+.navbar a{display: block;}
+.nav-link.currr::after{
   content: "";
   display: block;
-  margin-top: 2px;
-  width:50px;
+  margin: 2px auto 0 auto;
+  width:40px;
   height: 4px;
   border-radius: 3px;
   background-color: var(--color-span2);
 }
+/*
 .current-papa .csadf::after{margin:0 auto;}
 .current-papa .csadf{display: block;} */

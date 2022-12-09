@@ -52,7 +52,7 @@ $end = end($ex);
 
  <ul>
     <li><a class="nav-link<?php if($end =='about') echo ' currr'?>" href="<?php echo site_url('/about')?>">About</a></li>
-    <li><a class="nav-link" href="<?php echo site_url('/services')?>">Services</a></li>
+    <li><a class="nav-link<?php if($end =='services') echo ' currr'?>" href="<?php echo site_url('/services')?>">Services</a></li>
     <li class="dropdown case-studies-parent"><a href="#" class="csadf"><span>Case Studies</span> 
         <i class="bi bi-chevron-down"></i></a>
         <ul>
@@ -68,7 +68,7 @@ $end = end($ex);
         ?>
         </ul>
     </li>
-    <li><a class="nav-link" href="<?php echo site_url('/contact-us')?>">Contact Us</a></li>
+    <li><a class="nav-link<?php if($end =='contact-us') echo ' currr'?>" href="<?php echo site_url('/contact-us')?>">Contact Us</a></li>
 
 </ul>
 
