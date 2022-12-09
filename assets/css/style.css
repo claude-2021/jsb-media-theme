@@ -170,8 +170,9 @@ a:hover {
   transition: 0.3s;
 }
 .navbar a {
-  font-size: 15px;
+  font-size: 12px;
   font-weight: bold;
+  font-family: "Barlow-Bold";
   text-transform: uppercase;
 }
 .navbar a i,
@@ -1913,6 +1914,7 @@ h2.our-values {
   display: flex;
   flex-direction: column;
   margin-bottom: 60px;
+  margin-right: 60px;
 }
 #CSactivities .desc {width: 320px;}
 .card-cs-wrapper {
@@ -1982,6 +1984,7 @@ h2.our-values {
   padding: 40px 0 100px 0;
   margin: 0 auto;
 }
+#ReadyToCook.srv {padding: 120px 0 190px 0;}
 .contact-form .container .inner {
   background-position-y: bottom;
 }
@@ -1999,6 +2002,7 @@ h2.our-values {
   padding: 10px 0 0 17px;
 }
 h2.morethan {
+  padding-top: 60px;
   font-size: 44px;
 }
 #morethan .flex {
@@ -2046,6 +2050,7 @@ h2.morethan {
 }
 .leadGeneration.blue {
   background-color: var(--color-span1);
+  margin-top: 60px;
 }
 .leadGeneration.blue .dsc-txt {
   color: #ffffff;
