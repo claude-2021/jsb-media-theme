@@ -28,33 +28,3 @@ require_once get_template_directory() . '/wpbakery-elements/results.php';
 $dir = get_stylesheet_directory() . '/vc_templates';   
 vc_set_shortcodes_templates_dir( $dir );
 
-add_filter( 'wp_get_nav_menu_items', 'cpt_locations_filter', 10, 3 );
-
-function cpt_locations_filter( $items, $menu, $args ) {
-  $child_items = array(); 
-  $menu_order = count($items); 
-  $parent_item_id = 0;
-
-  foreach ( $items as $item ) {
-    if ( in_array('menu-case-studies', $item->classes) ){ //add this class to your menu item
-        $parent_item_id = $item->ID;
-    }
-  }
-
-  if($parent_item_id > 0){
-
-      foreach ( get_posts( 'post_type=casestudy&numberposts=-1' ) as $post ) {
-        $post->menu_item_parent = $parent_item_id;
-        $post->post_type = 'casestudy';
-        $post->object = 'casestudy';
-        $post->type = 'casestudy';
-        $post->menu_order = ++$menu_order;
-        $post->title = $post->post_title;
-        $post->url = get_permalink( $post->ID );
-        array_push($child_items, $post);
-      }
-
-  }
-
-  return array_merge( $items, $child_items );
-}
