@@ -28,7 +28,16 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-  <?php wp_head();?>
+  <?php wp_head();
+  $args=array(
+    'post_type'=>'casestudy',
+    'post_per_page' => -1,
+    'status'=>'publish'
+);
+$res = new WP_Query($args);
+$ex = explode('/',get_page_template());
+$curr = end($ex);
+  ?>
 </head>
 <body <?php body_class();?>>
 <header id="header" class="fixed-top ">
@@ -36,14 +45,25 @@
         <h1 class="logo me-auto"><a href="<?php echo esc_url(home_url('/')); ?>">
                 <img src="<?php echo get_template_directory_uri() ?>/assets/img/logo-jsb-media.png" class="img-fluid animated" alt=""></a></h1>
         <nav id="navbar" class="navbar">
-                <?php //wp_nav_menu(array('theme_location' => 'menu-1','menu_id'=> 'primary-menu',));?>
+                <?php //wp_nav_menu(array('theme_location' => 'Primary',));?>
 
-<ul>
+ <ul>
     <li><a class="nav-link" href="<?php echo site_url('/about')?>">About</a></li>
     <li><a class="nav-link" href="<?php echo site_url('/services')?>">Services</a></li>
     <li class="dropdown case-studies-parent"><a href="#" class="csadf"><span>Case Studies</span> 
         <i class="bi bi-chevron-down"></i></a>
-        <?php wp_nav_menu(array('theme_location' => 'menu-case-studies','container'=>false));?>
+        <ul>
+        <?php 
+        $mnu='';
+        //wp_nav_menu(array('theme_location' => 'menu-case-studies','container'=>false));
+        foreach($res->posts as $mn){
+            $mnu.= '<li>';
+            $mnu.= '<a href="'.get_permalink( $mn->ID ).'">'.$mn->post_title.'</a>';
+            $mnu.= '</li>';
+        }
+        echo $mnu;
+        ?>
+        </ul>
     </li>
     <li><a class="nav-link" href="<?php echo site_url('/contact-us')?>">Contact Us</a></li>
 

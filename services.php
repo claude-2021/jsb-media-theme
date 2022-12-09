@@ -23,7 +23,7 @@ get_header()?>
             </div>
         </div>
     </section>
-    <h2 class="span3 morethan text-center">More <span class="span2">than a list of services</span></h2>
+    <h2 class="span2 morethan text-center">More <span class="span3">than a list of services</span></h2>
     <section id="morethan">
         <div class="container">
             <div class="flex">

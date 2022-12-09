@@ -9,7 +9,7 @@ function p4_custom_setup() {
 	register_nav_menus(
 		array(
 //'menu-1' => esc_html__( 'Primary', 'jsb-media' ),
-			'menu-case-studies' => esc_html__( 'Case Studies', 'jsb-media' ),
+			'menu-case-studies' => esc_html__( 'Primary', 'jsb-media' ),
 		)
 	);
 }

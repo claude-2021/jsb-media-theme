@@ -32,7 +32,7 @@ get_header()?>
         <div class="container" data-aos="fade-left">
 
             <div class="row">
-                <div class="col-lg-6 d-flex flex-column justify-content-center order-2 order-lg-1">
+                <div class="col-lg-6">
                     <div class="left-conti">
                         <div class="left-conti-inner">
 
@@ -48,7 +48,8 @@ get_header()?>
                         </div>
                     </div>
                 </div>
-
+<div class="col-lg-6 flxrgt">
+</div>
             </div>
 
         </div>
