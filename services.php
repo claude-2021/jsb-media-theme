@@ -11,8 +11,8 @@ get_header()?>
                     data-aos="fade-up" data-aos-delay="200">
                     <h1 class="hero3">A plan as <span class="hero2">unique as your brand</span></h1>
                     <div class="desc text-white">
-                        We deploy a custom blend of digital marketing<br />
-                        solutions based on your specific pain points<br />
+                        We deploy a custom blend of digital marketing
+                        solutions based on your specific pain points
                         and goals for growth.
                     </div>
                 </div>
@@ -49,10 +49,10 @@ get_header()?>
     <section id="relationShip">
         <div class="container">
             <div class="flex">
-                <div class="desc text-center" data-aos="fade-up">
-                    Relationship builders at our core, we develop a deep<br />
-                    understanding of your needs and goals so we can<br />
-                    determine which of our solutions will deliver the most<br />
+                <div class="desc text-center col-lg-8" data-aos="fade-up">
+                    Relationship builders at our core, we develop a deep
+                    understanding of your needs and goals so we can
+                    determine which of our solutions will deliver the most
                     impact for you.
                 </div>
             </div>
@@ -64,9 +64,9 @@ get_header()?>
                 <div class="dsc1">
                     <h2 class="span1">Lead Generation</h2>
                     <div class="dsc-txt" data-aos="fade-right">
-                        If your current lead acquisition method is<br />
-                        lacking, we’ll look at your key metrics and<br />
-                        deliver a customized lead gen strategy to<br />
+                        If your current lead acquisition method is
+                        lacking, we’ll look at your key metrics and
+                        deliver a customized lead gen strategy to
                         help you turn things around.
                     </div>
                 </div>
@@ -79,11 +79,11 @@ get_header()?>
                     <img src="<?php echo get_template_directory_uri() ?>/assets/img/cloud.png" class="img-fluid" />
                 </div>
                 <div class="dsc2">
-                        <h2 class="span2">Digital Advertising<br /> Management</h2>
+                        <h2 class="span2">Digital Advertising Management</h2>
                         <div class="dsc-txt" data-aos="fade-left">
-                        While you focus on other priorities, we’ll<br />
-                         design beautiful campaigns that help<br />
-                          your brand grow, manage their ongoing<br />
+                        While you focus on other priorities, we’ll
+                         design beautiful campaigns that help
+                          your brand grow, manage their ongoing
                            presence, and report on their ROI.
                         </div>
                 </div>
@@ -96,9 +96,9 @@ get_header()?>
                 <div class="dsc1">
                     <h2 class="span3">Social Media Marketing</h2>
                     <div class="dsc-txt" data-aos="fade-down">
-                    To reach some of the 3 billion social<br />
-                     media users/potential customers, we’ll<br />
-                     manage your social media efforts and get<br />
+                    To reach some of the 3 billion social
+                     media users/potential customers, we’ll
+                     manage your social media efforts and get
                       you earning the attention you deserve.
                     </div>
                 </div>
@@ -111,11 +111,11 @@ get_header()?>
                     <img src="<?php echo get_template_directory_uri() ?>/assets/img/icon-mkt.png" class="img-fluid" />
                 </div>
                 <div class="dsc2">
-                        <h2 class="span2">Customized Content & <br />Marketing Plans</h2>
+                        <h2 class="span2">Customized Content & Marketing Plans</h2>
                         <div class="dsc-txt" data-aos="fade-up">
-                        We’re here to help you develop and deploy<br />
-                         a customized content and marketing plan<br />
-                          that’s designed to thrive in the digital<br />
+                        We’re here to help you develop and deploy
+                         a customized content and marketing plan
+                          that’s designed to thrive in the digital
                            world.
                         
                            
@@ -130,9 +130,9 @@ get_header()?>
                 <div class="dsc1">
                     <h2 class="span1">Mobile App Advertising</h2>
                     <div class="dsc-txt" data-aos="fade-up">
-                    We specialize in creating campaigns that<br />
-                     will stand out in the cluttered mobile app<br />
-                      marketplace, and draw interest and<br />
+                    We specialize in creating campaigns that
+                     will stand out in the cluttered mobile app
+                      marketplace, and draw interest and
                       engagement with your app.
                     </div>
                 </div>
@@ -147,10 +147,10 @@ get_header()?>
                 <div class="dsc2">
                         <h2 class="span2">Brand & Media Planning</h2>
                         <div class="dsc-txt" data-aos="fade-up">
-                        We’ll help figure out how to best present<br />
-                         your business through brand statements<br />
-                          & materials, and reach the right<br />
-                           audiences through data-driven targeting<br />
+                        We’ll help figure out how to best present
+                         your business through brand statements
+                          & materials, and reach the right
+                           audiences through data-driven targeting
                             strategies.
                         </div>
                 </div>

@@ -429,8 +429,12 @@ a:hover {
 #services .container {
   padding-top: 100px;
 }
-#services .btn-get-started,
-#services .desc {font-family: "Barlow-Bold";}
+
+
+/* #services .btn-get-started,
+#services .desc {font-family: "Barlow-Bold";} */
+
+
 #brand {padding-bottom: 120px;}
 #brand .container {
   padding-top: 0;
@@ -2034,6 +2038,7 @@ h2.morethan {
 .leadGeneration .dsc-txt {
   font-size: 26px;
   color: var(--color-desc1);
+  max-width: 510px;
 }
 .leadGeneration .dsc1 {
   background: url("../img/rel-bg-1.png") no-repeat left center;
@@ -2073,6 +2078,7 @@ h2.morethan {
 .leadGeneration .flex:nth-child(2) .img {
   margin-right: 140px;
 }
+.leadGeneration br{display: inline;}
 #contactUs {
   background: url("../img/bg-contact.png") no-repeat center center;
   padding: 50px 18px 0 125px;
