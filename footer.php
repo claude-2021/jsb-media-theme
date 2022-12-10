@@ -11,14 +11,14 @@
                     <div class="bld">Phone:</div>
                     <div class="vlu"><a href="tel:+954.903.1655">954.903.1655</a></div>
                 </div>
-                <div class="rowftr">
+                <a target="_blank" class="rowftr" href="https://www.google.com/maps/place/11555+Heron+Bay+Blvd,+Coral+Springs,+FL+33076,+USA/@26.3103176,-80.2892294,15.25z/data=!4m5!3m4!1s0x88d91076dafcdf53:0x77749aef87ce7a!8m2!3d26.3094582!4d-80.2815225">
                     <div class="bld">Address:</div>
                     <div class="vlu">
                         11555 heron Bay Blvd<br />
                         Suite 200<br />
                         Coral Springs, FL 33076
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-lg-6 mnu-php">
                 <div class="row flex-row">

@@ -1913,8 +1913,7 @@ h2.our-values {
 #CSactivities .card-cs {
   display: flex;
   flex-direction: column;
-  margin-bottom: 60px;
-  margin-right: 60px;
+  margin: 55px;
 }
 #CSactivities .desc {width: 320px;}
 .card-cs-wrapper {
