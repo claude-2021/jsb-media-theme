@@ -28,3 +28,15 @@ require_once get_template_directory() . '/wpbakery-elements/results.php';
 $dir = get_stylesheet_directory() . '/vc_templates';   
 vc_set_shortcodes_templates_dir( $dir );
 
+function getMyMnu(){
+	$args=array(
+		'post_type'=>'casestudy',
+		'post_per_page' => -1,
+		'status'=>'publish',
+		'orderby'=>'ID',
+		'order'=>'ASC'
+
+	);
+	$res = new WP_Query($args);
+	return $res;
+}

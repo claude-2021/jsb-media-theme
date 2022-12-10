@@ -29,17 +29,10 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   <?php wp_head();
-  $args=array(
-    'post_type'=>'casestudy',
-    'post_per_page' => -1,
-    'status'=>'publish'
-);
-$res = new WP_Query($args);
-
-
 global $wp;
 $ex = explode( '/', home_url( $wp->request ));
 $end = end($ex);
+$res = getMyMnu();
 ?>
 </head>
 <body <?php body_class();?>>

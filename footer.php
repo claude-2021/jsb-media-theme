@@ -2,7 +2,7 @@
 <footer id="footer">
     <div class="container inner">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 lfaclr">
                 <div class="rowftr">
                     <div class="bld">Email:</div>
                     <div class="vlu"><a href="mailto:jordan@jsbmedia.io">Jordan@jsbmedia.io</a></div>
@@ -22,12 +22,23 @@
             </div>
             <div class="col-lg-6 mnu-php">
                 <div class="row flex-row">
-                <ul class="mnuphpfrt">
+                <ul class="mnuphpfrt navbar">
     <li><a class="nav-link" href="<?php echo site_url('/about')?>">About</a></li>
     <li><a class="nav-link" href="<?php echo site_url('/services')?>">Services</a></li>
-    <li class="dropdown"><a href="#"><span>Case Studies</span> 
-        <i class="bi bi-chevron-down"></i></a>
-        <?php wp_nav_menu(array('theme_location' => 'menu-case-studies','menu_id'=> 'case-studies','container'=>false));?>
+    <li class="dropdown"><a href="#"><span>Case Studies</span><i class="bi bi-chevron-down"></i></a>
+        <ul>
+        <?php 
+        $mnu='';
+        $res=getMyMnu();
+        //wp_nav_menu(array('theme_location' => 'menu-case-studies','container'=>false));
+        foreach($res->posts as $mn){
+            $mnu.= '<li>';
+            $mnu.= '<a href="'.get_permalink( $mn->ID ).'">'.$mn->post_title.'</a>';
+            $mnu.= '</li>';
+        }
+        echo $mnu;
+        ?>
+        </ul>
     </li>
     <li><a class="nav-link" href="<?php echo site_url('/contact-us')?>">Contact Us</a></li>
 
