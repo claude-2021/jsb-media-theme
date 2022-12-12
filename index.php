@@ -13,9 +13,9 @@ get_header()?>
                 data-aos="fade-up" data-aos-delay="200">
                 <h1>Your <span class="hero3">growth</span><span class="hero2">-driven media</span> <span
                         class="hero3">partner</span></h1>
-                <h2><span class="hero4">No one leverages art and data like JSB</span></h2>
+                <h2><span class="hero4">No one leverages art and data like JSB Media</span></h2>
                 <div class="d-flex justify-content-center justify-content-lg-start">
-                    <a href="#about" class="btn-get-started scrollto">Let's go</a>
+                    <a href="contact-us" class="btn-get-started scrollto">Let's go</a>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img">
@@ -43,7 +43,7 @@ get_header()?>
                                 and grow your business.
                             </div>
                             <div class="d-flex justify-content-center justify-content-lg-start">
-                                <a href="#about" class="btn-get-started scrollto">Our Story</a>
+                                <a href="about/" class="btn-get-started scrollto">Our Story</a>
                             </div>
                         </div>
                     </div>
@@ -60,11 +60,11 @@ get_header()?>
             <h2 class="span1">Everything you need,<br />to <span class="span2">achieve</span> what you want</h2>
             <div class="desc">
                 We assess your goals for growth, and<br />
-                customize our services to meet and<br />
-                exceed them.
+                customize our services to meet and exceed them<br />
+               
             </div>
             <div class="d-flex justify-content-center justify-content-lg-start">
-                <a href="#services" class="btn-get-started scrollto">Our services</a>
+                <a href="services" class="btn-get-started scrollto">Our services</a>
             </div>
 
         </div>
@@ -84,7 +84,7 @@ get_header()?>
                 </div>
             </div>
             <div class="d-flex justify-content-center justify-content-lg-start">
-                <a href="#services" class="btn-get-started scrollto">Our impact</a>
+                <a href="casestudy/a-recipe-for-success/" class="btn-get-started scrollto">Our impact</a>
             </div>
         </div>
     </section>
@@ -117,7 +117,7 @@ get_header()?>
             <div class="desc">Discover what’s possible with a fresh perspective and a<br />
                  wealth of data used wisely.</div>                 
                  <div class="d-flex justify-content-center">
-                <a href="#Starthere" class="btn-get-started scrollto">Start here</a>
+                <a href="contact-us" class="btn-get-started scrollto">Start here</a>
             </div>
             </div>
         </div>

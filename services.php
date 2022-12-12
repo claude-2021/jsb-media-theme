@@ -162,7 +162,7 @@ get_header()?>
         <div class="container text-center" data-aos="fade-down">
             <div class="">
                 <h2 class="span3">Ready to  <span class="span2">expand your fanbase</span>?</h2>
-                <a href="#ReadyToCook" class="btn-get-started scrollto">Let’s connect</a>
+                <a href="contact-us/" class="btn-get-started scrollto">Let’s connect</a>
             </div>
         </div>
     </section>

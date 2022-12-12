@@ -74,7 +74,7 @@ get_header()?>
                     growth of your brand and your business.
                 </div>
                 <div class="d-flex justify-content-center justify-content-lg-start">
-                    <a href="#services" class="btn-get-started scrollto">Let’s grow</a>
+                    <a href="contact-us" class="btn-get-started scrollto">Let’s grow</a>
                 </div>
             </div>
         </div>

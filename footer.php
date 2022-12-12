@@ -58,14 +58,15 @@
             <div>JSB Media - all rights reserved</div>
         </div>
         <div class="pp-and-social-2">
-            <div><a href="privacy_policy" class="privacy under">Privacy Policy</a> <a href="terms-use"
-                    class="terms under">Terms of Use</a></div>
+            <div><a href="privacy_policy" class="privacy under"> </a> <a href="terms-use"
+                    class="terms under"></a></div>
             <div>
                 <div class="socials">
                     <ul>
-                        <li><a class="soc soc-fb" href="#"></a></li>
-                        <li><a class="soc soc-tw" href="#"></a></li>
-                        <li><a class="soc soc-yt" href="#"></a></li>
+                        <li><a class="soc soc-fb" target="_blank" href="https://www.facebook.com/jsbmedia.io?mibextid=LQQJ4d"></a></li>
+                        <li><a class="soc soc-tw" target="_blank" href="https://twitter.com/jsbmedia_us?s=21&t=bN_hegV0-2elWENmDb1MNg"></a></li> 
+						<li><a class="soc soc-yt" target="_blank" href="https://www.linkedin.com/company/jsbmedia/"></a></li>										
+                       
                     </ul>
                 </div>
             </div>
