@@ -4,7 +4,7 @@ get_header()?>
     <section id="StatusQuo">
         <div class="container" data-aos="fade-up">
             <div class="row">
-                <div class="text-center">
+                <div class="heroseabt">
                     <h2 class="span3">How do we <span class="span2">break the status</span> quo?</h2>
                     <div class="desc">
                         It’s the problem every brand wants to solve, but it’s easier said than done. We’re a group<br />
