@@ -1864,6 +1864,7 @@ h2.our-values {
   display: flex;
   padding: 0 50px;
   align-items: center;
+  justify-content: center;
 }
 #BuildOn .desc {
   color: #ffffff;
