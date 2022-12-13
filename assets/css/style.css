@@ -464,14 +464,14 @@ a:hover {
   color: #F2F2F2;
 }
 #ReadyToCook .btn-get-started:hover,
-#solutions .btn-get-started:hover,
+
 #brand .btn-get-started:hover,
 #why-us .btn-get-started:hover,
 #services .btn-get-started:hover {
   background: #F2F2F2;
   color: #ff1fba;
 }
-
+#solutions .btn-get-started:hover,
 #why-us .btn-get-started:hover,
 #services .btn-get-started:hover {background: none;}
 
@@ -1868,7 +1868,7 @@ h2.our-values {
 #BuildOn .desc {
   color: #ffffff;
 }
-#BuildOn .prplzantoufe{
+.prplzantoufe{
   background: url("../img/abt-fl-lft.png") no-repeat right bottom;
   height: 24px;
   margin-top: 40px;
@@ -1890,7 +1890,10 @@ h2.our-values {
   align-items: center;
 }
 #KeepIt .coretxt {
-  padding-left: 100px;
+  background: url("../img/abt-fl-lft.png") no-repeat left 0;
+  padding: 65px 0 0 45px;
+  padding-right: 0;
+  width: 36%;
 }
 #OurValues .desc,
 #KeepIt .desc {
