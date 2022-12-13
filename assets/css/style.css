@@ -4,6 +4,14 @@
   --color-span3: #387ef7;
   --color-desc1: #2e2e22;
 }
+@media (min-width: 1400px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1440px;
+    padding: 0;
+  }
+}
+
+
 .bg{display: none;}
 @font-face {
   font-family: "Barlow-Regular";
@@ -1806,7 +1814,7 @@ h3 {
   padding: 120px 0 0 0;
 }
 .StatusQuoInner{
-background: url("../img/trswhite.svg") no-repeat left bottom;
+background: url("../img/trswhite.svg") no-repeat -147px bottom;
 
 }
 #StatusQuo .flex{
@@ -1817,16 +1825,16 @@ background: url("../img/trswhite.svg") no-repeat left bottom;
 #StatusQuo h2 {
   font-size: 44px;
 }
-#StatusQuo .threeblue {padding-top: 70px;}
+#StatusQuo .threeblue {padding-top: 70px;text-align: center;}
 #StatusQuo .heroseabt {
   padding-left: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 60%;
+  width: 65%;
 }
 #StatusQuo .bycicle{
-  width: 40%;
+  width: 35%;
 }
 
 #StatusQuo .desc {font-family: "Barlow-Regular";font-size: 22px;}
