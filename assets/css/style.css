@@ -1823,6 +1823,10 @@ background: url("../img/trswhite.svg") no-repeat left bottom;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 60%;
+}
+#StatusQuo .bycicle{
+  width: 40%;
 }
 
 #StatusQuo .desc {font-family: "Barlow-Regular";font-size: 22px;}
