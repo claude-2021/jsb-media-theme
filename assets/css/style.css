@@ -1854,25 +1854,35 @@ h2.our-values {
   font-weight: bold;
 }
 #OurValues .coretxt {
-  padding-left: 15px;
+  padding:55px 40px;  
+  background: url("../img/abt-fl-lft.png") no-repeat left 0;
+  width: 45%;
 }
-#BuildOn .inner {
-  background: url("../img/abt-section-3.png") no-repeat center center
-    var(--color-span1);
-  min-height: 600px;
+
+#BuildOn .inner{background-color:var(--color-span1);padding: 120px 0;}
+#BuildOn .flex {
   display: flex;
+  padding: 0 50px;
   align-items: center;
-}
-#BuildOn .container {
-  display: flex;
-  justify-content: flex-end;
 }
 #BuildOn .desc {
   color: #ffffff;
 }
-#BuildOn .coretxt {
-  padding-right: 0;
+#BuildOn .prplzantoufe{
+  background: url("../img/abt-fl-lft.png") no-repeat right bottom;
+  height: 24px;
+  margin-top: 40px;
 }
+
+#BuildOn .img {width: 50%;}
+#BuildOn .coretxt {
+  background: url("../img/abt-fl-lft.png") no-repeat left 0;
+  padding: 65px 0 0 45px;
+  padding-right: 0;
+  width: 36%;
+}
+
+
 #KeepIt .inner {
   background: url("../img/abt-section-4.png") no-repeat center center;
   min-height: 600px;

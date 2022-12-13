@@ -38,8 +38,8 @@ get_header()?>
 
                             <h2><span class="span1">More than vanity</span> <span class="span2">metrics</span></h2>
                             <div class="desc">
-                                We’re expert brand builders who design<br />
-                                modern media strategies to drive results<br />
+                                We’re expert brand builders who design
+                                modern media strategies to drive results
                                 and grow your business.
                             </div>
                             <div class="d-flex justify-content-center justify-content-lg-start">
@@ -57,10 +57,10 @@ get_header()?>
 
     <section id="services" class="services">
         <div class="container flex-column" data-aos="fade-up">
-            <h2 class="span1">Everything you need,<br />to <span class="span2">achieve</span> what you want</h2>
+            <h2 class="span1">Everything you need,to <span class="span2">achieve</span> what you want</h2>
             <div class="desc">
-                We assess your goals for growth, and<br />
-                customize our services to meet and exceed them<br />
+                We assess your goals for growth, and
+                customize our services to meet and exceed them
                
             </div>
             <div class="d-flex justify-content-center justify-content-lg-start">
@@ -75,10 +75,10 @@ get_header()?>
 
             <div class="row">
                 <div>
-                    <h2>Proof is in the<br /><span class="span2">performance</span></h2>
+                    <h2>Proof is in the<span class="span2">performance</span></h2>
                     <div class="desc">
-                        Every business has a thriving brand<br />
-                        inside of it. See how we’ve helped our<br />
+                        Every business has a thriving brand
+                        inside of it. See how we’ve helped our
                         clients unlock theirs.
                     </div>
                 </div>
@@ -95,7 +95,7 @@ get_header()?>
             <div class="row">
                 <h2 class="span1">Meet our <span class="span2">friends</span></h2>
                 <div class="desc">
-                    We help brands break out of their insular thinking<br />
+                    We help brands break out of their insular thinking
                     patterns and look to unrelated categories for inspiration.
                 </div>
             </div>
@@ -114,7 +114,7 @@ get_header()?>
         <div class="container" data-aos="fade-up">
             <div class="row">
                 <h2 class="span1">Take <span class="span2">the biggest step</span> for your brand</h2>
-            <div class="desc">Discover what’s possible with a fresh perspective and a<br />
+            <div class="desc">Discover what’s possible with a fresh perspective and a
                  wealth of data used wisely.</div>                 
                  <div class="d-flex justify-content-center">
                 <a href="contact-us" class="btn-get-started scrollto">Start here</a>
