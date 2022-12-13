@@ -1,9 +1,17 @@
 @media (max-width: 768px) {
-.flcclm{flex-direction: column-reverse;}
-  
-  #footer .footer-bottom {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.flcclm{flex-direction: column;padding-top: 80px;}
+#hero {height:635px;overflow: initial;}
+#hero .pl10 {padding-left: 0;}
+#hero h1{font-size: 36px;margin: 0;width: 100%;text-align: left;}
+#hero .hero-img{margin-top: 40px;}
+#hero .blusht{position: absolute;bottom: -195px;}
+
+#hero h2{font-size: 26px;text-align: left;margin-top: 25px;}
+#header .logo {padding-left: 0;}
+
+#footer .footer-bottom {
+  padding-top: 20px;
+  padding-bottom: 20px;
   }
   #footer .copyright,
   #footer .credits {
@@ -13,16 +21,16 @@
   #footer .credits {
     padding-top: 4px;
   }
+  #services h2{font-size: 36px;}
   #vanityMetrics {
-    background: url("../img/section1-bg.png") no-repeat right -5px;
-    min-height: initial;
+    margin-top: 120px;
+    background: url("../img/hm-rght1.png") no-repeat center bottom;
+    min-height: 660px;
+    background-size: contain;
   }
   .left-conti-inner {
     padding-top: 0;
     padding-left: 10px;
-  }
-  .desc {
-    font-size: 18px;
   }
   #brand .container,
   #services {
