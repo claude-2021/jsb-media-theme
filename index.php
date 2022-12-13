@@ -3,27 +3,30 @@
 Template Name: Home
  */
 get_header()?>
-<section id="hero" class="d-flex align-items-center">
-
+<section id="hero" class="">
+<div class="inner d-flex align-items-center">
     <div class="container">
-        <div class="row relative">
-            <div class="leftBlueArrow"><img
-                    src="<?php echo get_template_directory_uri() ?>/assets/img/left_arrow_blue.svg" /></div>
-            <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
-                data-aos="fade-up" data-aos-delay="200">
-                <h1>Your <span class="hero3">growth</span><span class="hero2">-driven media</span> <span
-                        class="hero3">partner</span></h1>
-                <h2><span class="hero4">No one leverages art and data like JSB Media</span></h2>
-                <div class="d-flex justify-content-center justify-content-lg-start">
-                    <a href="contact-us" class="btn-get-started scrollto">Let's go</a>
+        <div class="flex flcclm">
+            <div class="d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+                <div class="pl10">
+                    <h1>Your <span class="hero3">growth</span><span class="hero2">-driven media</span> <span
+                            class="hero3">partner</span></h1>
+                    <h2><span class="hero4">No one leverages art and data like JSB Media</span></h2>
+                    <div class="d-flex justify-content-center justify-content-lg-start">
+                        <a href="contact-us" class="btn-get-started scrollto">Let's go</a>
+                    </div>           
+                </div>
+                <div class="blusht">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/left_arrow_blue.svg" class="img-fluid" alt="">
                 </div>
             </div>
-            <div class="col-lg-6 order-1 order-lg-2 hero-img">
+            <div class="order-1 order-lg-2 hero-img">
                 <img src="<?php echo get_template_directory_uri() ?>/assets/img/top.png" class="img-fluid" alt="">
             </div>
         </div>
     </div>
 
+</div>
 </section>
 
 <main id="main">

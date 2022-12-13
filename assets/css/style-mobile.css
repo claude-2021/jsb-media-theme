@@ -1,4 +1,6 @@
 @media (max-width: 768px) {
+.flcclm{flex-direction: column-reverse;}
+  
   #footer .footer-bottom {
     padding-top: 20px;
     padding-bottom: 20px;
