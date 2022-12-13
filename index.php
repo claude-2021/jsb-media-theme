@@ -74,21 +74,41 @@ get_header()?>
     </section>
 
     <section id="why-us" class="why-us section-bg">
+        <div class="inner">
+        <div class="innercircle">
         <div class="container" data-aos="fade-up">
-
-            <div class="row">
-                <div>
-                    <h2>Proof is in the<span class="span2">performance</span></h2>
+            <div class="flex noflx">
+            <div class="lft">
+            <div class="row1">
+                <img src="<?php echo get_template_directory_uri() ?>/assets/img/zantoufetoul.svg">
+                </div>
+                <div class="pdg">
+                    <h2>Proof is in the<span class="span2"> performance</span></h2>
                     <div class="desc">
                         Every business has a thriving brand
                         inside of it. See how we’ve helped our
                         clients unlock theirs.
                     </div>
+                
+           
+                <div class="d-flex justify-content-lg-start">
+                    <a href="casestudy/a-recipe-for-success/" class="btn-get-started scrollto">Our impact</a>
                 </div>
             </div>
-            <div class="d-flex justify-content-center justify-content-lg-start">
-                <a href="casestudy/a-recipe-for-success/" class="btn-get-started scrollto">Our impact</a>
             </div>
+        
+
+
+            </div>
+        </div>
+        </div>
+
+        <div class="rgt">
+                 <div class="zantouvehorz"></div>
+                <div class="row3"><img width="216" src="<?php echo get_template_directory_uri() ?>/assets/img/blue-logo.png" /></div>
+            </div>
+
+
         </div>
     </section>
 
@@ -108,8 +128,8 @@ get_header()?>
     <section id="clients">
         <div class="container">
             <div class="row">
-                <div class="cl-brdrs"><img src="<?php echo get_template_directory_uri() ?>/assets/img/sponsors.png"
-                        class="img-fluid" alt=""></div>
+                <div class="cl-brdrs">
+                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/sponsors.png" class="img-fluid" alt=""></div>
             </div>
         </div>
     </section>

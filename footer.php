@@ -25,7 +25,7 @@
                 <ul class="mnuphpfrt navbar">
     <li><a class="nav-link" href="<?php echo site_url('/about')?>">About</a></li>
     <li><a class="nav-link" href="<?php echo site_url('/services')?>">Services</a></li>
-    <li class="dropdown"><a href="#"><span>Case Studies</span><i class="bi bi-chevron-down"></i></a>
+    <li class="dropdown"><a href="#"><span>Case Studies</span><i class=""></i></a>
         <ul>
         <?php 
         $mnu='';

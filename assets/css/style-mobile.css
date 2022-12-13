@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-.flcclm{flex-direction: column;padding-top: 80px;}
+.flcclm{flex-direction: column;padding-top: 60px;}
 #hero {height:635px;overflow: initial;}
 #hero .pl10 {padding-left: 0;}
 #hero h1{font-size: 36px;margin: 0;width: 100%;text-align: left;}
@@ -32,8 +32,7 @@
     padding-top: 0;
     padding-left: 10px;
   }
-  #brand .container,
-  #services {
+  #brand .container{
     min-height: auto;
     background-position-y: bottom;
   }
@@ -41,25 +40,33 @@
     padding-top: 0;
   }
   #services .desc {
-    text-shadow: 0px 1px 1px var(--color-desc1);
+    font-family: "Barlow-Regular";
   }
   section {
     padding: 40px 0;
   }
-  #why-us {
-    background-position: right 0;
-  }
-  #why-us h2 {
-    font-size: 32px;
-  }
+  .noflx{display: block}
+  #why-us .inner {
+    background: url("../img/whyus.png") no-repeat center bottom;
+    background-size: contain;
+    min-height: 710px;
+}
+#why-us .lft{width: 100%;}
+#why-us .row1{display: none;}
+#why-us .rgt{display: none;}
+#why-us .pdg{padding: 0;}
+  #why-us h2 {font-size: 36px;width: 80%;  }
+  #why-us .innercircle{background: none;}
+  #why-us .desc{width: 90%;}
   #why-us .container {
-    padding-top: 110px;
+    padding-top: 50px;
     padding-left: 25px;
   }
-  #brand .desc br,
-  #skills .desc br {
-    display: none;
-  }
+  #skills {padding-top: 60px;}
+  #skills h2{font-size: 36px;}
+  #brand h2{font-size: 36px;}
+  #skills .desc{width: 95%;}
+
   .cl-brdrs {
     padding: 20px 10px;
   }
@@ -286,4 +293,13 @@
   }
 
   footer .mnuphpfrt{display: block}
+  footer .mnuphpfrt.navbar a{padding-left: 14px;font-weight: normal;font-size: 18px;font-family: "Barlow-Regular";}
+  
+  footer .dropdown i {
+    background: url("../img/ftrdwn.png") no-repeat 0 center / contain;
+    display: inline-block;
+    width: 20px;
+    height: 14px;
+    margin-left: 10px;
+}
 }
