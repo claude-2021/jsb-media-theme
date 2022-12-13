@@ -1800,17 +1800,31 @@ h3 {
   font-family: "Barlow-Bold";
 }
 #StatusQuo {
-  background: url("../img/abt-section-1.png") no-repeat center -5px;
-  min-height: 796px;
+  background-color: var(--color-span1);
   background-size: cover;
-  color: #fff;
-  display: flex;
-  align-items: center;
+  color: #fff;  
+  padding: 120px 0 0 0;
 }
+.StatusQuoInner{
+background: url("../img/trswhite.svg") no-repeat left bottom;
+
+}
+#StatusQuo .flex{
+  align-items: center;
+
+}
+
 #StatusQuo h2 {
   font-size: 44px;
 }
-.heroseabt{padding-left: 80px;}
+#StatusQuo .threeblue {padding-top: 70px;}
+#StatusQuo .heroseabt {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 #StatusQuo .desc {font-family: "Barlow-Regular";font-size: 22px;}
 #StatusQuo .text-center{margin-top: -15px;}
 h2.our-values {
