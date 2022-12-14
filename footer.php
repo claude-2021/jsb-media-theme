@@ -41,17 +41,13 @@
         </ul>
     </li>
     <li><a class="nav-link" href="<?php echo site_url('/contact-us')?>">Contact Us</a></li>
-
 </ul>
-
-
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="logo-ftr flex justify-content-end">
-                <img src="<?php echo get_template_directory_uri() ?>/assets/img/logo-footer.png" class="img-fluid"
-                    alt="">
+                <img width="230" src="<?php echo get_template_directory_uri()?>/assets/img/logo-footer1.png" class="img-fluid" alt="">
             </div>
         </div>
         <div class="row pp-and-social-1">
@@ -66,7 +62,6 @@
                         <li><a class="soc soc-fb" target="_blank" href="https://www.facebook.com/jsbmedia.io?mibextid=LQQJ4d"></a></li>
                         <li><a class="soc soc-tw" target="_blank" href="https://twitter.com/jsbmedia_us?s=21&t=bN_hegV0-2elWENmDb1MNg"></a></li> 
 						<li><a class="soc soc-yt" target="_blank" href="https://www.linkedin.com/company/jsbmedia/"></a></li>										
-                       
                     </ul>
                 </div>
             </div>

@@ -25,20 +25,15 @@ get_header()?>
             </div>
         </div>
     </div>
-
 </div>
 </section>
-
 <main id="main">
-
     <section id="vanityMetrics">
         <div class="container" data-aos="fade-left">
-
             <div class="row">
                 <div class="col-lg-6">
                     <div class="left-conti">
                         <div class="left-conti-inner">
-
                             <h2><span class="span1">More than vanity</span> <span class="span2">metrics</span></h2>
                             <div class="desc">
                                 We’re expert brand builders who design
@@ -54,25 +49,20 @@ get_header()?>
 <div class="col-lg-6 flxrgt">
 </div>
             </div>
-
         </div>
     </section>
-
     <section id="services" class="services">
         <div class="container flex-column" data-aos="fade-up">
             <h2 class="span1">Everything you need,to <span class="span2">achieve</span> what you want</h2>
             <div class="desc">
                 We assess your goals for growth, and
                 customize our services to meet and exceed them
-               
             </div>
             <div class="d-flex justify-content-center justify-content-lg-start">
                 <a href="services" class="btn-get-started scrollto">Our services</a>
             </div>
-
         </div>
     </section>
-
     <section id="why-us" class="why-us section-bg">
         <div class="inner">
         <div class="innercircle">
@@ -89,32 +79,22 @@ get_header()?>
                         inside of it. See how we’ve helped our
                         clients unlock theirs.
                     </div>
-                
-           
                 <div class="d-flex justify-content-lg-start">
                     <a href="casestudy/a-recipe-for-success/" class="btn-get-started scrollto">Our impact</a>
                 </div>
             </div>
             </div>
-        
-
-
             </div>
         </div>
         </div>
-
         <div class="rgt">
                  <div class="zantouvehorz"></div>
                 <div class="row3"><img width="216" src="<?php echo get_template_directory_uri() ?>/assets/img/blue-logo.png" /></div>
             </div>
-
-
         </div>
     </section>
-
     <section id="skills" class="skills">
         <div class="container text-center" data-aos="fade-down">
-
             <div class="row">
                 <h2 class="span1">Meet our <span class="span2">friends</span></h2>
                 <div class="desc">
@@ -124,7 +104,6 @@ get_header()?>
             </div>
         </div>
     </section>
-
     <section id="clients">
         <div class="container">
             <div class="row">
@@ -145,7 +124,5 @@ get_header()?>
             </div>
         </div>
     </section>
-
 </main>
-
 <?php get_footer()?>
