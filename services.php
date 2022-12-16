@@ -5,9 +5,10 @@ Template Name: Services
 get_header()?>
 <main id="main">
     <section id="planBrand" class="d-flex align-items-center">
+        <div class="inner">
         <div class="container">
-            <div class="row relative">
-                <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+            <div class="row plr">
+                <div class="col-lg-6 d-flex flex-column srvlft"
                     data-aos="fade-up" data-aos-delay="200">
                     <h1 class="hero3">A plan as <span class="hero2">unique as your brand</span></h1>
                     <div class="desc text-white">
@@ -22,6 +23,8 @@ get_header()?>
                 </div>
             </div>
         </div>
+        </div>
+        <div class="rianglecolor"></div>
     </section>
     <h2 class="span2 morethan text-center">More <span class="span3">than a list of services</span></h2>
     <section id="morethan">

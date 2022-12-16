@@ -11,21 +11,22 @@ get_header()?>
                 <div class="pl10">
                     <h1>Your <span class="hero3">growth</span><span class="hero2">-driven media</span> <span
                             class="hero3">partner</span></h1>
-                    <h2><span class="hero4">No one leverages art and data like JSB Media</span></h2>
+                    <div class="desc">
+                    No one leverages art and data like JSB Media. We deploy a custom blend of digital marketing solutions based on your specific pain points and goals for growth
+                    </div>
                     <div class="d-flex  justify-content-lg-start">
                         <a href="contact-us" class="btn-get-started scrollto">Let's go</a>
                     </div>           
                 </div>
-                <div class="blusht">
+            
+            </div>
+
+        </div>
+    </div></div>
+    <div class="blusht">
                     <img src="<?php echo get_template_directory_uri() ?>/assets/img/left_arrow_blue.svg" class="img-fluid" alt="">
                 </div>
-            </div>
-            <div class="order-1 order-lg-2 hero-img">
-                <img src="<?php echo get_template_directory_uri() ?>/assets/img/top.png" class="img-fluid" alt="">
-            </div>
-        </div>
-    </div>
-</div>
+
 </section>
 <main id="main">
     <section id="vanityMetrics">

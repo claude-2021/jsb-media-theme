@@ -98,7 +98,6 @@ get_header()?>
                         <a href="contact-us" class="btn-get-started scrollto">Let’s grow</a>
                     </div>
                 </div>
-                <div class="row3"><img width="216" src="<?php echo get_template_directory_uri() ?>/assets/img/blue-logo.png" /></div>
             </div>
         </div>
     </section>

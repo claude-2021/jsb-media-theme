@@ -99,13 +99,7 @@
   footer .menu li {
     margin: 0;
   }
-  #StatusQuo {
-    min-height: initial;
-    background-size: contain;
-    background-color: var(--color-span1);
-    padding: 100px 0;
-    background-position: left bottom;
-  }
+
   #OurValues {
     padding: 0;
     position: relative;
@@ -301,5 +295,28 @@
     width: 20px;
     height: 14px;
     margin-left: 10px;
+}
+#StatusQuo {
+  min-height: 760px;
+  background-size: contain;
+  background-color: var(--color-span1);
+  padding: 100px 0 150px 0;
+  background-position: left bottom;
+  background-image: url("../img/bycicle-mobile.png");
+  background-repeat: no-repeat;
+  background-position: -20px bottom ;
+  background-size: contain;
+}
+#StatusQuo .StatusQuoInner{background: none;}
+#StatusQuo h2{font-size: 36px;}
+#StatusQuo .heroseabt{width: 95%;padding-left:0}
+#StatusQuo .threeblue,
+#StatusQuo .bycicle {display: none;}
+#StatusQuo .flex {display: block;}
+#OurValues {min-height: 610px;}
+#OurValues .coretxt{width: 100%;}
+#OurValues .bg::before {
+  background: url("../img/our-values-mobile.png") no-repeat 10px 10px / contain;
+  opacity: 1;
 }
 }

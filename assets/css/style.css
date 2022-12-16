@@ -379,8 +379,10 @@ a:hover {
 }
 #hero {
   width: 100%;
-  background: #0d1b5a;
+  background: url("../img/herohome.png") no-repeat 0 0 / cover;
+  
 }
+#hero .desc{width: 50%;color: #ffffff;}
 #hero .pl10{padding-left: 110px;}
 #hero .blusht{margin-top: 130px;}
 #hero .container {
@@ -392,7 +394,7 @@ a:hover {
   font-weight: 700;
   line-height: 56px;
   color: #fff;
-  width: 70%;
+  width: 40%;
 }
 
 #hero h2 {
@@ -409,9 +411,11 @@ a:hover {
   transition: 0.5s;
   margin: 0;
   color: #fff;
-  background: #0d1b5a;
+  background: #ff1fba;
   border: 3px solid #ff1fba;
 }
+#hero .btn-get-started {margin-top: 35px ;}
+#hero .btn-get-started:hover {background: none;color:#ff1fba ;}
 #vanityMetrics .btn-get-started {
   background: #F2F2F2;
   color: #0d1b5a;
@@ -492,10 +496,6 @@ a:hover {
   color: #F2F2F2;
 }
 
-#hero .btn-get-started:hover {
-  background: #ff1fba;
-  color: #F2F2F2;
-}
 #hero .btn-watch-video {
   font-size: 16px;
   display: flex;
@@ -2072,32 +2072,48 @@ h2.our-values {
 .title_nmbr.title_nmbr_28{font-size: 28px;line-height: 1.1;}
 
 #ReadyToCook {
-  background: url("../img/cs-ftr-bg.png") no-repeat center center;
-  margin: 50px 0 35px 0;
+  padding: 140px 0;
+}
+#ReadyToCook.srv {
+  background: #ffffff;
 }
 .contact-form .container{background-color: #ffffff;border-radius: 8px;margin-top: 45px;}
-.contact-form .container .inner,
-#ReadyToCook.srv {
-  background: url("../img/cs-ftr-bg-1.png") no-repeat center center #ffffff;
-  padding: 40px 0 100px 0;
+.contact-form .container .inner{
+  background: s#ffffff;
+  padding: 140px 0;
   margin: 0 auto;
 }
-#ReadyToCook.srv {padding: 120px 0 190px 0;}
 .contact-form .container .inner {
   background-position-y: bottom;
 }
 .navbar ul.sub-menu {
   display: none;
 }
+.page-template-services header{background-color: var(--color-span1);}
 #planBrand {
-  background: url("../img/triangle.png") no-repeat center bottom;
-  padding: 130px 0;
+  position: relative;
+  padding-bottom: 35px;
 }
+#planBrand .inner{background-color: var(--color-span1);width: 100%;padding: 80px 0 0 0;}
+#planBrand .rianglecolor{
+  background: url("../img/trianglecolor.svg") no-repeat right bottom;
+  width: 190px;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+}
+#planBrand .srvlft{padding-top: 90px;}
 #planBrand h1 {
   padding-left: 17px;
+  width: 50%;
 }
+
+#planBrand .plr{padding-left: 110px;}
 #planBrand .desc {
   padding: 10px 0 0 17px;
+  width: 77%;
 }
 h2.morethan {
   padding-top: 60px;
@@ -2119,6 +2135,7 @@ h2.morethan {
 #relationShip {
   color: #ffffff;
   background: url("../img/relationship.png") no-repeat center bottom;
+  background-size: cover;
 }
 #relationShip .desc {
   font-family: "Barlow-Bold";
@@ -2174,12 +2191,11 @@ h2.morethan {
 }
 .leadGeneration br{display: inline;}
 #contactUs {
-  background: url("../img/bg-contact.png") no-repeat center center;
+  background-color: var(--color-span1);
   padding: 50px 18px 0 125px;
-  min-height: 680px;
 }
+#contactUs .desc{width: 77%;}
 .theform {
-  width: 825px;
   margin: 0 auto;
 }
 .theform label {
@@ -2234,3 +2250,5 @@ footer .mnuphpfrt a{text-decoration: underline;}
 
 footer .navbar .dropdown a{font-size: 18px;}
 footer .navbar .dropdown ul a{font-size: 14px;text-decoration: none;}
+.bycicle-mobile{display: none;}
+.hero-img{padding-bottom: 80px;}
