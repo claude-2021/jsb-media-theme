@@ -2089,6 +2089,7 @@ h2.our-values {
 .navbar ul.sub-menu {
   display: none;
 }
+.page-template-contact-us header,
 .page-template-services header{background-color: var(--color-span1);}
 #planBrand {
   position: relative;
@@ -2191,13 +2192,32 @@ h2.morethan {
 }
 .leadGeneration br{display: inline;}
 #contactUs {
-  background-color: var(--color-span1);
-  padding: 50px 18px 0 125px;
+  padding-bottom: 0;
 }
 #contactUs .desc{width: 77%;}
-.theform {
-  margin: 0 auto;
+#contactUs .inner{
+  padding: 120px 68px 60px 155px;
+  background: var(--color-span1);
+  width: 100%;
 }
+.theform {
+  background: #ffffff;
+  margin: 0 auto;
+  width: 520px;
+  border-radius: 8px;
+  position: absolute;
+  right:80px;
+  top: 180px;
+  z-index: 9;
+}
+.theform p{margin-bottom: 0;}
+.zanblu{margin: 50px 0;}
+.theformInner{
+  padding: 38px;
+  height: 100%;
+  width: 100%;
+}
+.theform .abs {top:-10px;right:-12px;position: absolute;}
 .theform label {
   display: block;
 }
@@ -2210,9 +2230,10 @@ h2.morethan {
   width: 100%;
   font-size: 18px;
   color: var(--color-span1);
+  
 }
 .theform textarea {
-  resize: none;
+  resize: none;height: 170px;
 }
 .theform input[type="submit"] {
   background: var(--color-span2);
@@ -2221,6 +2242,7 @@ h2.morethan {
   padding: 7px 58px;
   font-family: "Barlow-Bold";
   font-size: 15px;
+  margin-top: 10px;
 }
 .h-20{height: 30px;}
 

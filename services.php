@@ -4,7 +4,7 @@ Template Name: Services
 */
 get_header()?>
 <main id="main">
-    <section id="planBrand" class="d-flex align-items-center">
+    <!-- <section id="planBrand" class="d-flex align-items-center">
         <div class="inner">
         <div class="container">
             <div class="row plr">
@@ -25,6 +25,18 @@ get_header()?>
         </div>
         </div>
         <div class="rianglecolor"></div>
+    </section> -->
+    <section id="relationShip">
+        <div class="container">
+            <div class="flex">
+                <div class="desc text-center col-lg-8" data-aos="fade-up">
+                    Relationship builders at our core, we develop a deep
+                    understanding of your needs and goals so we can
+                    determine which of our solutions will deliver the most
+                    impact for you.
+                </div>
+            </div>
+        </div>
     </section>
     <h2 class="span2 morethan text-center">More <span class="span3">than a list of services</span></h2>
     <section id="morethan">
@@ -49,18 +61,7 @@ get_header()?>
             </div>
         </div>
     </section>
-    <section id="relationShip">
-        <div class="container">
-            <div class="flex">
-                <div class="desc text-center col-lg-8" data-aos="fade-up">
-                    Relationship builders at our core, we develop a deep
-                    understanding of your needs and goals so we can
-                    determine which of our solutions will deliver the most
-                    impact for you.
-                </div>
-            </div>
-        </div>
-    </section>
+    
     <section class="leadGeneration">
         <div class="container">
             <div class="flex">
