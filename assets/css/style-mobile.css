@@ -1,10 +1,12 @@
 @media (max-width: 768px) {
 .flcclm{flex-direction: column;padding-top: 60px;}
-#hero {height:635px;overflow: initial;}
+
+#hero {height:455px;overflow: initial;text-align: left;background-position: center center;}
+#hero .desc {width: 100%;}
 #hero .pl10 {padding-left: 0;}
 #hero h1{font-size: 36px;margin: 0;width: 100%;text-align: left;}
 #hero .hero-img{margin-top: 40px;}
-#hero .blusht{position: absolute;bottom: -195px;}
+#hero .blusht{position: absolute;bottom: -195px;display: none;}
 
 #hero h2{font-size: 26px;text-align: left;margin-top: 25px;}
 #header .logo {padding-left: 0;}
@@ -23,7 +25,7 @@
   }
   #services h2{font-size: 36px;}
   #vanityMetrics {
-    margin-top: 120px;
+    margin-top: 60px;
     background: url("../img/hm-rght1.png") no-repeat center bottom;
     min-height: 660px;
     background-size: contain;
@@ -128,7 +130,7 @@
     opacity: 0.3;
   }
   #OurValues .desc {
-    font-weight: 700;
+    padding-bottom: 25px;
   }
   h2.morethan,
   h2.our-values {
@@ -313,10 +315,10 @@
 #StatusQuo .threeblue,
 #StatusQuo .bycicle {display: none;}
 #StatusQuo .flex {display: block;}
-#OurValues {min-height: 610px;}
+#OurValues {min-height: 635px;}
 #OurValues .coretxt{width: 100%;}
 #OurValues .bg::before {
-  background: url("../img/our-values-mobile.png") no-repeat 10px 10px / contain;
+  background: url("../img/our-values-mobile.png") no-repeat 10px bottom / contain;
   opacity: 1;
 }
 }

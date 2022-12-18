@@ -37,6 +37,7 @@ get_header()?>
                         and unexpected avenues to achieve our
                         goals.
                     </div>
+                    <div class="blushm"></div>
                 </div>
             </div>
         </div>
