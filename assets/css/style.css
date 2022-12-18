@@ -2005,14 +2005,13 @@ h2.our-values {
   display: flex;
   align-items: center;
   justify-content:center;
-  width:200px;
   padding-bottom: 30px;
 }
 #CSactivities .title span{display: block;}
 #CSactivities .card-cs {
   display: flex;
   flex-direction: column;
-  margin: 24px 24px 50px 24px;
+  margin: 35px 35px 50px 35px;
 }
 #CSactivities .desc {width: 320px;}
 .card-cs-wrapper {
