@@ -65,6 +65,7 @@ public function render_shortcode( $atts, $content, $tag ) {
     $desc         = esc_attr($atts['description']);
     $output .= '
     <section id="CaseStudyHeader">
+    <div class="CaseStudyHeaderInner">
         <div class="container" data-aos="fade-up">
             <div class="flex relative">
                 <div class="">
@@ -76,6 +77,7 @@ public function render_shortcode( $atts, $content, $tag ) {
                 </div>
             </div>
         </div>
+    </div>
     </section>';
     return $output;                  
 }

@@ -29,15 +29,18 @@ get_header()?>
         <div class="bg"></div>
         <div class="inner">
             <div class="container" data-aos="fade-up">
-                <div class="coretxt mt-8">
-                    <h3 class="span1">Embrace <span class="span2">the <br />unconventional</span></h3>
-                    <div class="desc">
-                        We’re not bound to tired, limited ways
-                        of thinking. We explore nontraditional
-                        and unexpected avenues to achieve our
-                        goals.
+                <div class="flexrw">
+                    <div class="zntfblue"></div>
+                    <div class="coretxt mt-8">
+                        <h3 class="span1">Embrace <span class="span2">the <br />unconventional</span></h3>
+                        <div class="desc">
+                            We’re not bound to tired, limited ways
+                            of thinking. We explore nontraditional
+                            and unexpected avenues to achieve our
+                            goals.
+                        </div>
+                        <div class="blushm"></div>
                     </div>
-                    <div class="blushm"></div>
                 </div>
             </div>
         </div>
@@ -77,6 +80,7 @@ get_header()?>
                     </div>
                     <div class="prplzantoufe"></div>
                 </div>
+                <div class="mobilebg"></div>
             </div>
         </div>
     </section>
@@ -87,7 +91,7 @@ get_header()?>
                 <img src="<?php echo get_template_directory_uri() ?>/assets/img/zantoufetoul.svg" />
                 </div>
                 <div class="flex" data-aos="fade-up">
-                    <h2 class="text-white">There’s no single solution to help<br /> a brand <span class="span3">stand out
+                    <h2 class="text-white">There’s no single solution to help a brand <span class="span3">stand out
                             from the crowd.</span></h2>
                     <div class="desc text-white">
                         It takes a custom blend of data, art, and media to produce a strategy that
